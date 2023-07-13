@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar Menu</title>
+    <link rel="stylesheet" href="Css/stylesheet.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <input type="checkbox" id="check" />
+      <nav>
+        <label for="check" class="sidebar-toggle">
+          <i class="fa-solid fa-bars" style="color: #000000"></i>
+        </label>
+      </nav>
+
+      <div class="sidebar">
+        <label for="check" class="sidebar-toggle close">
+          <i class="fa-solid fa-xmark" style="color: #000000"> </i>
+        </label>
+        <div class="link-categories">
+          <h5><a href="#">Home</a></h5>
+          <h5><a href="#">Help</a></h5>
+          <h5><a href="#">About us</a></h5>
+        </div>
+
+        <ul class="link-list">
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Sign In </a></li>
+          <li><a href="#">Sign Up </a></li>
+          <li><a href="#">Subscribe </a></li>
+        </ul>
+        <ul class="social-media">
+          <li>
+            <a href="#"><i class="fa-brands fa-instagram" style="color: rgb(186, 20, 175)"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-twitter" style="color: rgb(20, 117, 186)"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-facebook" style="color: rgb(20, 28, 186)"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
